@@ -1,6 +1,6 @@
 @import url('./global.css');
 
-/*--------------- HEADER ------------------------*/
+/* ------------ HEADER ------------ */
 
 header{
     display: flex;
@@ -14,15 +14,14 @@ header{
 }
 
 .nav-header ul{
-    display:flex;
+    display: flex;
     list-style: none;
     gap: 50px;
 }
 
 .nav-header ul a{
     text-decoration: none;
-    color: #18191F
-
+    color: #18191F;
 }
 
 .active{
@@ -31,12 +30,12 @@ header{
 
 .btn-login{
     color: var(--color-primary);
-    background: none;
+    background-color: transparent;
     padding: 10px 20px;
     cursor: pointer;
 }
 
-.btn-SingUp{
+.btn-SignUp{
     color: var(--color-neutral-white);
     padding: 10px 20px;
     background-color: var(--color-primary);
@@ -51,5 +50,127 @@ header{
 
 
 
+/* ------------ FIM HEADER ------------ */
 
-/*--------------- FIM HEADER ------------------*/
+/* ------------ MAIN ------------ */
+
+main{
+    display: flex;
+    background-color: var(--color-neutral-silver);
+    align-items: center;
+    justify-content: center;
+    gap: 104px;
+    padding: 96px 0px;
+}
+
+.content-lessons{
+    width: 657px;
+}
+
+h1{
+    font-size: 64px;
+    color: var(--color-neutral-d_grey);
+    font-weight: 600;
+}
+
+.content-lessons h1 span{
+    color: var(--color-primary);
+}
+
+.content-lessons p{
+    margin-top: 16px;    
+}
+
+
+/* ------------ FIM MAIN ------------ */
+
+/* ------------ OUR CLIENTS ------------ */
+
+.our-client{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.our-client p{
+    margin-top: 8px;
+}
+
+.logo-clients{
+    display: flex;
+    justify-content: center;
+    gap: 136px;
+    padding: 25px 0px;    
+    margin-top: 16px;
+}
+
+/* ------------ FIM OUR CLIENTS ------------ */
+
+/* ------------ MANAGE SYSTEM ------------ */
+
+.manage-system{
+    margin-top: 40px;
+    text-align: center;    
+}
+
+.manage-system h2{
+    width: 542px;    
+    margin: 0 auto;
+}
+
+#manage-system-subtitle{
+    margin-top: 8px;
+}
+
+.cards-container{
+    display: flex;
+    margin-top: 16px;
+    gap: 127.5px;
+    justify-content: center;
+
+}
+
+.ards-container article{
+    width: 299px;
+    box-shadow: 0px 2px 4px rgba(171, 190, 209, 0.2);
+    padding: 24px 16px;
+    text-align: center;
+    border-radius: 8px;
+    transition: 0.5s;
+
+
+}
+
+.cards-container article:hover{
+    box-shadow: 0px 2px 4px rgba(171, 190, 209, 0.5);
+    transform: translateY(-8px);
+}
+
+.cards-container article img{
+    width: 65px;
+    height: 56px;
+}
+
+.cards-container article h3{
+    color: var(--color-neutral-d_grey);
+    font-size: 28px;
+    margin-bottom: 8px;
+    width: 231px;
+    margin: 0 auto;
+
+}
+
+.cards-container article p{
+    font-size: 14px;
+    line-height: 1.6;
+    margin-top: 8px;
+
+
+}
+
+
+
+
+
+
+
+/* ------------ FIM MANAGE SYSTEM ------------ */
