@@ -220,11 +220,12 @@ h1{
 .helping-statistic{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 30px;    
+    gap: 60px;    
 }
 
 .helping-itens{
     display: flex;
+    gap: 16px;
 }
 
 .helping-itens img{
@@ -236,3 +237,25 @@ h1{
 }
 
 /* ------------ FIM Helping Local ------------ */
+
+
+
+
+
+
+.Site-Footer{
+    display: flex;
+    justify-content: center;
+    gap: 49.47px; 
+    padding: 48px 0px;
+    align-items:center ;
+}
+
+.Site-Footer h2{
+    width: 601px;
+
+}
+
+.Site-Footer p{
+    width: 601;
+}
