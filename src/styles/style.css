@@ -107,14 +107,13 @@ h1{
 
 /* ------------ MANAGE SYSTEM ------------ */
 
-
-.manage-system{
-    margin-top: 40px;
-    text-align: center;    
+.manage-system{    
+    text-align: center;
+    margin-top: 40px;    
 }
 
 .manage-system h2{
-    width: 542px;    
+    width: 542px;
     margin: 0 auto;
 }
 
@@ -127,22 +126,19 @@ h1{
     margin-top: 16px;
     gap: 127.5px;
     justify-content: center;
-
 }
 
-.ards-container article{
-    width: 299px;
+.cards-container article{
+    width: 299px; 
     box-shadow: 0px 2px 4px rgba(171, 190, 209, 0.2);
     padding: 24px 16px;
     text-align: center;
-    border-radius: 8px;
+    border-radius: 8px; 
     transition: 0.5s;
-
-
 }
 
 .cards-container article:hover{
-    box-shadow: 0px 2px 4px rgba(171, 190, 209, 0.5);
+    box-shadow: 0px 8px 12px rgba(171, 190, 209, 0.5);
     transform: translateY(-8px);
 }
 
@@ -156,36 +152,87 @@ h1{
     font-size: 28px;
     margin-bottom: 8px;
     width: 231px;
+    text-align: center;
     margin: 0 auto;
 
 }
 
 .cards-container article p{
+    margin-top: 8px;
     font-size: 14px;
     line-height: 1.6;
-    margin-top: 8px;
-
 }
 
 /* ------------ FIM MANAGE SYSTEM ------------ */
 
+/* ------------ Pixelgrade ------------ */
 
-/* ------------ PIXELGRADE ------------ */
 
-.Pixelgrade {
+.pixelgrade{
     display: flex;
     justify-content: center;
-    margin-top: 42px;
     gap: 49px;
-    
-
+    padding: 52px;
+    margin-top: 42px;
 }
 
-.Pixelgrad-content{
+.pixelgrade-content{
     width: 661px;
-    margin: 60px 84px;
-    
 }
 
-/* ------------ FIM PIXGRADE ------------ */
+.pixelgrade-content h2{
+    width: 526px;
+}
 
+.pixelgrade-content p{
+    margin-top: 16px;
+
+}
+
+/* ------------ FIM Pixelgrade ------------ */
+
+
+/* ------------ Helping Local ------------ */
+
+.helping-local{
+    display: flex;
+    justify-content: center;
+    margin: 48px 0px;
+    background-color: var(--color-neutral-silver);
+    align-items: center;
+    gap: 204px;
+    padding: 64px 0px;
+}
+
+.helping-content h2{
+    width: 390px;
+}
+
+.helping-content h2 span{
+    color: var(--color-primary);
+}
+
+.helping-content p{
+    margin-top: 8px;
+    color: #18191F;
+}
+
+.helping-statistic{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;    
+}
+
+.helping-itens{
+    display: flex;
+}
+
+.helping-itens img{
+    width: 48px;
+}
+
+.infomation-itens{
+    text-align: start;
+}
+
+/* ------------ FIM Helping Local ------------ */
